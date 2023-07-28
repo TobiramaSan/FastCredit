@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling on the entire page */
+}
+
+.vision {
+  position: relative;
+  top: 290px;
+  left: 30px;
+}
+
+.vision-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap the elements if the container overflows */
+  justify-content: center; /* Center the content horizontally */
+}
+
+.vision-text {
+  width: 100%; /* Set the width to 100% on smaller screens */
+  max-width: 600px; /* Limit the width to a maximum of 600px */
+}
+
+.vision-text span {
+  display: inline-block;
+  font-size: 33px;
+  font-weight: 600;
+  color: #058141cc;
+  padding: 10px;
+  background-color: #f2fcf5;
+  border-radius: 100px;
+}
+
+.vision-text p {
+  font-size: 35px;
+  font-weight: 600;
+  color: #4c4d50;
+  margin-top: 20px;
+}
+
+.vision-img img {
+  width: 100%; /* Adjust the width to fill the container */
+  max-width: 500px; /* Limit the width to a maximum of 500px */
+  padding: 10px;
+  margin-left: 50px;
+}
