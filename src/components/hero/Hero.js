@@ -15,13 +15,47 @@ import "./hero.css";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="hero-container">
+      <div className="hero-text-cont">
         <div className="hero-text">
           <h1>Seamless, fast, and efficient Banking Experience </h1>
           <p>Fast credit is the best finance for you</p>
         </div>
-        <div className="images">
-          <img className="woman" src={Woman} alt="" />
+        <div className="license">
+          <p>Licensed by CBN</p>
+          <img src={CBN} alt="" />
+        </div>
+        <div className="line">
+          <img src={Line} alt="" />
+        </div>
+        <div className="ndic">
+          <p>Deposits insured by</p>
+          <img src={NDIC} alt="" />
+        </div>
+
+        <div className="buttons">
+          <a className="button1" href="/">
+            <img src={Apple} alt="" />
+            <div>
+              <p>Download on the</p>
+              <span>App Store</span>
+            </div>
+          </a>
+          <a className="button2" href="/">
+            <img src={Google} alt="" />
+            <div>
+              <p>Get it on</p>
+              <span>Google Play</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div className="hero-img-cont">
+        <img className="woman" src={Woman} alt="" />
+      </div>
+      {/* <div className="hero-container">
+        <div className="hero-text">
+          <h1>Seamless, fast, and efficient Banking Experience </h1>
+          <p>Fast credit is the best finance for you</p>
         </div>
       </div>
       <div>
@@ -34,35 +68,7 @@ const Hero = () => {
         <img className="components img1" src={Components1} alt="" />
         <img className="components img2" src={Components2} alt="" />
         <img className="components img3" src={Components3} alt="" />
-      </div>
-      <div className="license">
-        <p>Licensed by CBN</p>
-        <img src={CBN} alt="" />
-      </div>
-      <div className="line">
-        <img src={Line} alt="" />
-      </div>
-      <div className="ndic">
-        <p>Deposits insured by</p>
-        <img src={NDIC} alt="" />
-      </div>
-
-      <div className="buttons">
-        <a className="button1" href="/">
-          <img src={Apple} alt="" />
-          <div>
-            <p>Download on the</p>
-            <span>App Store</span>
-          </div>
-        </a>
-        <a className="button2" href="/">
-          <img src={Google} alt="" />
-          <div>
-            <p>Get it on</p>
-            <span>Google Play</span>
-          </div>
-        </a>
-      </div>
+      </div> */}
     </div>
   );
 };

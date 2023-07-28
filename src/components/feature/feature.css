@@ -14,15 +14,14 @@ body {
 }
 
 .feature-text {
-  width: 100%; /* Set the width to 100% on smaller screens */
-  width: 100%; /* Limit the width to a maximum of 600px */
+  /* width: 100%; */
   padding-left: 30px;
   justify-content: center;
   display: grid;
 }
-.feature-text {
-  width: 100%; /* Set the width to 100% on smaller screens */ /* Limit the width to a maximum of 600px */
-}
+/* .feature-text {
+  width: 100%; 
+} */
 .feature-text span {
   display: inline-block;
   font-size: 33px;
@@ -32,6 +31,7 @@ body {
   background-color: #029247;
   border-radius: 100px;
   padding: 10px 20px;
+  top: 30px;
 }
 .feature-text p {
   font-size: 35px;
@@ -58,6 +58,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 50px;
+  border-radius: 50px;
 }
 .components .img {
   width: 40%;
@@ -100,7 +101,6 @@ body {
   justify-content: center;
 }
 
-/* Add spacing between the list items (optional) */
 .texts ul li {
   margin-bottom: 10px;
 }
