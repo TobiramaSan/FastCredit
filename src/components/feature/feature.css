@@ -1,0 +1,112 @@
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling on the entire page */
+}
+
+.feature {
+  position: relative;
+  top: 550px;
+  left: 30px;
+}
+
+.feature-wrapper {
+  background-color: #f2fcf5; /* Apply background color to the wrapper element */
+  /* padding-left: 0%; */
+}
+
+.feature-text {
+  width: 100%; /* Set the width to 100% on smaller screens */
+  width: 100%; /* Limit the width to a maximum of 600px */
+  padding-left: 30px;
+  justify-content: center;
+  display: grid;
+}
+.feature-text {
+  width: 100%; /* Set the width to 100% on smaller screens */ /* Limit the width to a maximum of 600px */
+}
+.feature-text span {
+  display: inline-block;
+  font-size: 33px;
+  font-weight: 600;
+  color: #f2fcf5;
+  margin: 0 auto;
+  background-color: #029247;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+.feature-text p {
+  font-size: 35px;
+  font-weight: 600;
+  color: #1f2024;
+  margin-top: 20px;
+}
+.feature-links ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 10px; */
+}
+.feature-links ul li {
+  list-style: none;
+}
+.feature-links ul li a {
+  font-size: 30px;
+  font-weight: 600;
+}
+.components {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.components .img {
+  width: 40%;
+}
+
+.components .texts {
+  width: 40%;
+}
+.components .texts p {
+  font-size: 35px;
+  font-weight: 600;
+}
+.components .img img {
+  width: 80%;
+}
+.components .texts span {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f2fcf5;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 100px;
+  color: #029247;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.texts ul li {
+  /* list-style-image: url("../../assets/Ellipse 316.png"); */
+  align-items: center;
+  padding-bottom: 5px;
+  list-style-type: none;
+  display: flex;
+}
+/* Align the list items vertically */
+.texts ul {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  list-style-position: outside;
+  justify-content: center;
+}
+
+/* Add spacing between the list items (optional) */
+.texts ul li {
+  margin-bottom: 10px;
+}
+
+.texts ul li .small-texts {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #696a6c;
+}
