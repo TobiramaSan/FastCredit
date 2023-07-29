@@ -14,6 +14,7 @@ const Features = () => {
         <div className="feature-links">
           <ul>
             <li
+              className="loans"
               onClick={() => {
                 setFeature("Loans");
               }}
@@ -21,6 +22,7 @@ const Features = () => {
               <p>Loans</p>
             </li>
             <li
+              className="investment"
               onClick={() => {
                 setFeature("Investment");
               }}
@@ -28,6 +30,7 @@ const Features = () => {
               <p>Investments</p>
             </li>
             <li
+              className="buy"
               onClick={() => {
                 setFeature("Buy");
               }}
@@ -38,33 +41,39 @@ const Features = () => {
         </div>
         {feature === "Loans" ? (
           <div className="components">
-            <div className="img">
-              <img src={Iphone} alt="" />
-            </div>
-            <div className="texts">
-              <div>
-                <p>Our simple and fast “all - purpose “ cash loans</p>
+            <div className="comp-cont">
+              <div className="img">
+                <img src={Iphone} alt="" />
               </div>
-              <div>
-                <span>Features</span>
-              </div>
-              <div className="list-text">
-                <ul>
-                  <li>
-                    <img src={Dot} alt="" />
-                    <p className="small-texts">Our rates are very attractive</p>
-                  </li>
-                  <li>
-                    <img src={Dot} alt="" />
-                    <p className="small-texts">No collateral needed</p>
-                  </li>
-                  <li>
-                    <img src={Dot} alt="" />
-                    <p className="small-texts">
-                      Get Credited in less than 24 hours
-                    </p>
-                  </li>
-                </ul>
+              <div className="texts">
+                <div className="text-cont1">
+                  <p>Our simple and fast “all - purpose “ cash loans</p>
+                </div>
+                <div>
+                  <div className="text-cont2">
+                    <span>Features</span>
+                    <div className="list-text">
+                      <ul>
+                        <li>
+                          <img src={Dot} alt="" className="dot" />
+                          <p className="small-texts">
+                            Our rates are very attractive
+                          </p>
+                        </li>
+                        <li>
+                          <img src={Dot} alt="" className="dot" />
+                          <p className="small-texts">No collateral needed</p>
+                        </li>
+                        <li>
+                          <img src={Dot} alt="" className="dot" />
+                          <p className="small-texts">
+                            Get Credited in less than 24 hours
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
