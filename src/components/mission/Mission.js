@@ -9,10 +9,12 @@ const Mission = () => {
         </div>
         <div className="mission-text">
           <span>Our Mission</span>
-          <p>
-            To provide fast and convenient financial services to consumers by
-            redefining customer’s experience through product innovation
-          </p>
+          <div className="p-cont">
+            <p>
+              To provide fast and convenient financial services to consumers by
+              redefining customer’s experience through product innovation
+            </p>
+          </div>
         </div>
       </div>
     </div>

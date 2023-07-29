@@ -7,10 +7,13 @@ const Vision = () => {
       <div className="vision-container">
         <div className="vision-text">
           <span>Our Vision</span>
-          <p>
-            To be the leading financial institution utilizing strategic
-            partnership to delight customers and create shared value nationwide
-          </p>
+          <div className="p-cont">
+            <p>
+              To be the leading financial institution utilizing strategic
+              partnership to delight customers and create shared value
+              nationwide
+            </p>
+          </div>
         </div>
         <div className="vision-img">
           <img src={Vis} alt="" />

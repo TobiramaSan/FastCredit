@@ -1,74 +1,86 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
 .services {
-  font-size: 50px;
-  background-repeat: no-repeat;
-  width: 100%;
-  position: relative;
-  background-color: #fff;
-  background-image: url("../../assets/Rectangle 48.png");
-  background-size: cover;
+  width: 87%;
+  display: flex;
+  margin: 0px auto;
+  padding-top: 210px;
+  justify-items: flex-end;
+  align-items: center;
 }
-
-.service-container {
-  position: relative;
-  z-index: 1;
-  display: inline-block;
-  left: 33.3%;
-  top: 170px;
+.service-cont {
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }
-
-.service-container h1 {
-  display: inline-block;
-  font-size: 33px;
+.service-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  flex-direction: column;
+}
+.service-text h1 {
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 40px;
+  font-style: normal;
   font-weight: 600;
-  margin-left: 100px;
-
-  color: #058141cc;
-  padding: 10px;
-  background-color: #f2fcf5;
+  line-height: normal;
+  padding: 16px 48px;
+  background: var(--success-success-50, #f2fcf5);
   border-radius: 100px;
 }
-
-.service-container p {
-  font-size: 35px;
+.service-text p {
+  color: var(--neutral-neutral-500, #1f2024);
+  font-size: 48px;
+  font-style: normal;
   font-weight: 600;
-  color: black;
-  margin-top: 20px;
+  line-height: normal;
 }
-.grid {
-  position: relative;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-  padding: 20px;
-  top: 200px;
-  grid-gap: 50px;
+.main-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 48px;
+}
+.grid-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
 }
 
+.grid-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 65px;
+}
 .grid-container {
-  margin-left: 35px;
-  box-sizing: border-box;
-  background-color: #f2fcf5;
-  font-size: 30px;
-  padding: 35px;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 24px;
+  background: var(--success-success-50, #f2fcf5);
+  justify-content: flex-start;
+  padding: 40px 32px;
+  height: 336px;
+  width: 33.3%;
 }
-
-.grid div img {
-  width: 30px;
+.cont-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-
-.grid div span {
-  font-size: 23px;
+.cont-text span {
+  color: var(--neutral-neutral-600, #1c1d21);
+  font-size: 32px;
+  font-style: normal;
   font-weight: 600;
+  line-height: 167%; /* 53.44px */
 }
-
-.grid div p {
-  font-size: 15px;
+.cont-text p {
+  width: 389px;
+  color: var(--neutral-neutral-400, #4c4d50);
+  font-size: 20px;
+  font-style: normal;
   font-weight: 500;
-  color: #4c4d50;
+  line-height: 167%; /* 33.4px */
 }
