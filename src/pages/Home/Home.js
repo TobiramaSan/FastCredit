@@ -4,7 +4,9 @@ import Hero from "../../components/hero/Hero";
 import Mission from "../../components/mission/Mission";
 import Services from "../../components/service/Services";
 import Vision from "../../components/vision/Vision";
+import Testimonial from "../../components/testimonials/Testimonial";
 import "./home.css";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
         <Vision />
         <Mission />
         <Features />
+        <Testimonial />
+        <Footer />
       </div>
     </div>
   );
