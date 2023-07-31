@@ -1,3 +1,4 @@
+import React from "react";
 import Features from "../../components/feature/Feature";
 import Header from "../../components/header/Header";
 import Hero from "../../components/hero/Hero";
