@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/New Fastcredit Logo.png";
 import "./header.css";
 const Header = () => {
@@ -6,22 +7,22 @@ const Header = () => {
       <img src={logo} alt="logo" className="logo" />
       <ul className="links">
         <li>
-          <a href="/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
-        <a href="/loan">Loans</a>
+        <NavLink to="/loan">Loans</NavLink>
         <li>
-          <a href="/investment">Investments</a>
-        </li>
-        <li>
-          <a href="/about">About Us</a>
+          <NavLink to="/investment">Investments</NavLink>
         </li>
         <li>
-          <a href="/contact">Contact Us</a>
+          <NavLink to="/about">About Us</NavLink>
         </li>
         <li>
-          <a className="getapp" href="/getapp">
+          <NavLink to="/contact">Contact Us</NavLink>
+        </li>
+        <li>
+          <NavLink className="getapp" to="/getapp">
             Get Fast Credit App
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
