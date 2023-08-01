@@ -1,52 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
-
-* {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
-
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  padding: 10px;
-  height: 85px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0px 8px 24px -4px rgba(24, 39, 75, 0.08),
+    0px 6px 12px -6px rgba(24, 39, 75, 0.12);
 }
-
-.logo {
-  width: 180px;
-  height: 55px;
-  margin-left: 70px;
-}
-nav {
+.header-container {
+  width: 86.2%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  position: relative;
+  /* gap: 277px; */
 }
-.header .links li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 10px 30px;
+.logo {
+  width: 282px;
+  height: 88px;
+  flex-shrink: 0;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
 }
 
-a {
-  text-decoration: none;
+.links ul li {
+  list-style-type: none;
+  /* color: #029247; */
+}
+.links ul li a:hover {
+  border-bottom: 2px solid var(--primary-primary-500-main, #029247);
+  color: #029247;
+  transition: 0.5s;
+}
+.links ul li a {
   color: var(--neutral-neutral-400, #4c4d50);
-  font-size: 15px;
+  font-family: Poppins;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-decoration: none;
 }
-
-a.getapp {
-  font-size: 10px;
-  margin-right: 30px;
+.links .getapp a {
+  color: #fff;
+  display: inline-flex;
+  padding: 16px 40px;
   border-radius: 100px;
   background: var(--primary-primary-500-main, #029247);
-  color: #fff;
-  padding: 10px 18px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
 }
+
+/* dropdown menu */
