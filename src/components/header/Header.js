@@ -1,16 +1,24 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/New Fastcredit Logo.png";
 import "./header.css";
-
+import InvestDrop from '../../components/invest-drop/invest';
 import Dropdown from "../dropdown/dropdown";
 import { useState } from "react";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
+  const [invest, setInvest] = useState(false);
 
-  // Function to toggle the dropdown
+const toggleInvest =() =>{
+  setInvest(!invest);
+  setDropDown(false);
+}
+
+
   const toggleDropdown = () => {
-    setDropDown((prevState) => !prevState);
+    setDropDown(!dropDown);
+    setInvest(false);
   };
 
   return (
@@ -30,7 +38,7 @@ const Header = () => {
                 <NavLink onClick={toggleDropdown}>Loans</NavLink>
               </li>
               <li>
-                <NavLink to="/investment">Investments</NavLink>
+                <NavLink onClick={toggleInvest}>Investments</NavLink>
               </li>
               <li>
                 <NavLink to="/about">About Us</NavLink>
@@ -46,6 +54,7 @@ const Header = () => {
         </div>
       </nav>
       {dropDown && <Dropdown />}
+      {invest && <InvestDrop />}
     </>
   );
 };

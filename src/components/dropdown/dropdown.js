@@ -9,54 +9,53 @@ import { NavLink } from "react-router-dom";
 import "./dropdown.css";
 
 const Dropdown = () => {
-    return ( 
-        <div className="dropdown-menu">
-<div className="drop-cont">
-  <NavLink className="navlink">
-    <img src={group} alt="" />
-    <div>
-      <span>Group Lending Scheme</span>
-      <p>Welfare package for employees</p>
+  return (
+    <div className="dropdown-menu">
+      <div className="drop-cont">
+        <NavLink className="navlink">
+          <img src={group} alt="" />
+          <div>
+            <span>Group Lending Scheme</span>
+            <p>Welfare package for employees</p>
+          </div>
+        </NavLink>
+        <NavLink className="navlink">
+          <img src={sme} alt="" />
+          <div>
+            <span>SME Loan</span>
+            <p>Loan for your business</p>
+          </div>
+        </NavLink>
+        <NavLink className="navlink">
+          <img src={invoice} alt="" />
+          <div>
+            <span>Invoice Discounting</span>
+            <p>Get Quik Funds</p>
+          </div>
+        </NavLink>
+        <NavLink className="navlink">
+          <img src={buynow} alt="" />
+          <div>
+            <span>Buy Now Pay Later</span>
+            <p>Buy and pay in installments</p>
+          </div>
+        </NavLink>
+        <NavLink className="navlink">
+          <img src={sector} alt="" />
+          <div>
+            <span>Public & Private Loan Sector</span>
+            <p>All purpose cash loans</p>
+          </div>
+        </NavLink>
+        <NavLink className="navlink">
+          <img src={calculator} alt="" />
+          <div>
+            <span>Loan Calculator</span>
+            <p>Calculate your loans</p>
+          </div>
+        </NavLink>
+      </div>
     </div>
-  </NavLink>
-  <NavLink className="navlink">
-    <img src={sme} alt="" />
-    <div>
-      <span>SME Loan</span>
-      <p>Loan for your business</p>
-    </div>
-  </NavLink>
-  <NavLink className="navlink">
-    <img src={invoice} alt="" />
-    <div>
-      <span>Invoice Discounting</span>
-      <p>Get Quik Funds</p>
-    </div>
-  </NavLink>
-  <NavLink className="navlink">
-    <img src={buynow} alt="" />
-    <div>
-      <span>Buy Now Pay Later</span>
-      <p>Buy and pay in installments</p>
-    </div>
-  </NavLink>
-  <NavLink className="navlink">
-    <img src={sector} alt="" />
-    <div>
-      <span>Public & Private Loan Sector</span>
-      <p>All purpose cash loans</p>
-    </div>
-  </NavLink>
-  <NavLink className="navlink">
-    <img src={calculator} alt="" />
-    <div>
-      <span>Loan Calculator</span>
-      <p>Calculate your loans</p>
-    </div>
-  </NavLink>
-</div>
-</div>
-     );
-}
- 
+  );
+};
 export default Dropdown;

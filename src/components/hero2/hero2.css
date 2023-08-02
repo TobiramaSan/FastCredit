@@ -1,0 +1,69 @@
+.hero2-comp {
+  padding-top: 140px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("../../assets/map.png");
+}
+.hero2 .comp-cont {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero2-comp .img {
+  right: 200px;
+}
+.hero2-comp .img,
+.hero2-comp .Iphone {
+  position: relative;
+}
+.hero2-comp .img .Iphone {
+  right: -170px;
+  z-index: 2;
+}
+
+.hero2-comp .circle1,
+.hero2-comp .circle2,
+.hero2-comp .tag {
+  position: absolute;
+  z-index: 1;
+}
+.hero2-comp .comp-cont .img .circle1 {
+  /* bottom: -7865px;
+  right: 250px; */
+  z-index: 1;
+  flex-shrink: 0;
+}
+.hero2-comp .comp-cont .img .circle2 {
+  /* bottom: -8015px;
+  right: 100px; */
+  z-index: 1;
+  flex-shrink: 0;
+  /* transform: rotate(-45deg); */
+}
+
+.hero2-comp .comp-cont .img .tag {
+  /* bottom: -7725px;
+  right: 270px; */
+  z-index: 3;
+  flex-shrink: 0;
+}
+.hero2-comp .hero2-comp-feat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.hero2-comp-feat .feat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.hero2-comp-feat .feat .dot-text {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
