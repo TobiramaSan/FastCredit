@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/New Fastcredit Logo.png";
 import "./header.css";
-import InvestDrop from '../../components/invest-drop/invest';
+import InvestDrop from "../../components/invest-drop/invest";
 import Dropdown from "../dropdown/dropdown";
 import { useState } from "react";
 
@@ -10,11 +10,10 @@ const Header = () => {
   const [dropDown, setDropDown] = useState(false);
   const [invest, setInvest] = useState(false);
 
-const toggleInvest =() =>{
-  setInvest(!invest);
-  setDropDown(false);
-}
-
+  const toggleInvest = () => {
+    setInvest(!invest);
+    setDropDown(false);
+  };
 
   const toggleDropdown = () => {
     setDropDown(!dropDown);
@@ -35,10 +34,10 @@ const toggleInvest =() =>{
               </li>
               <li>
                 {/* Add parentheses to invoke the toggleDropdown function */}
-                <NavLink onClick={toggleDropdown}>Loans</NavLink>
+                <p onClick={toggleDropdown}>Loans</p>
               </li>
               <li>
-                <NavLink onClick={toggleInvest}>Investments</NavLink>
+                <p onClick={toggleInvest}>Investments</p>
               </li>
               <li>
                 <NavLink to="/about">About Us</NavLink>

@@ -19,7 +19,7 @@ const InvestDrop = () => {
         <NavLink className="navlink">
           <img src={kids} alt="" />
           <div>
-            <span>SKiddies Swag</span>
+            <span>Kiddies Swag</span>
             <p>Invest in your child for brighter future</p>
           </div>
         </NavLink>

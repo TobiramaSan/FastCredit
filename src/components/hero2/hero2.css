@@ -1,69 +1,108 @@
-.hero2-comp {
+.hero2-compo {
   padding-top: 140px;
+  gap: 140px;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   background-image: url("../../assets/map.png");
-}
-.hero2 .comp-cont {
-  width: 95%;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  width: 91.7%;
 }
-.hero2-comp .img {
-  right: 200px;
+.hero2-compo .comp-contain {
+  background: var(--white, #fff);
+  width: 93%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 26px;
 }
-.hero2-comp .img,
-.hero2-comp .Iphone {
+.hero2-compo .comp-contain .texts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  width: 39.9%;
+}
+.hero2-compo .comp-contain .texts .text-contain1 p {
+  color: var(--neutral-neutral-600, #1c1d21);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero2-compo .comp-contain .texts .text-contain2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+.hero2-compo .comp-contain .texts .text-contain2 span {
+  padding: 8px 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--success-success-50, #f2fcf5);
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero2-compo .comp-contain .texts .text-contain2 .list-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.hero2-compo .comp-contain .texts .text-contain2 .list-text li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.hero2-compo .comp-contain .texts .text-contain2 .list-text li p {
+  color: var(--neutral-neutral-300, #696a6c);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero2-compo .img {
+  right: -450px;
+}
+.hero2-compo .img,
+.hero2-compo .Iphone {
   position: relative;
 }
-.hero2-comp .img .Iphone {
-  right: -170px;
+.hero2-compo .img .Iphone {
   z-index: 2;
 }
 
-.hero2-comp .circle1,
-.hero2-comp .circle2,
-.hero2-comp .tag {
+.hero2-compo .circle1,
+.hero2-compo .circle2,
+.hero2-compo .tag {
   position: absolute;
   z-index: 1;
 }
-.hero2-comp .comp-cont .img .circle1 {
-  /* bottom: -7865px;
-  right: 250px; */
+.hero2-compo .comp-contain .img .circle1 {
   z-index: 1;
   flex-shrink: 0;
+  left: -150px;
+  top: 0px;
 }
-.hero2-comp .comp-cont .img .circle2 {
-  /* bottom: -8015px;
-  right: 100px; */
+.hero2-compo .comp-contain .img .circle2 {
   z-index: 1;
   flex-shrink: 0;
-  /* transform: rotate(-45deg); */
+  left: -430px;
+  top: -150px;
 }
 
-.hero2-comp .comp-cont .img .tag {
-  /* bottom: -7725px;
-  right: 270px; */
+.hero2-compo .comp-contain .img .tag {
   z-index: 3;
   flex-shrink: 0;
-}
-.hero2-comp .hero2-comp-feat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-}
-.hero2-comp-feat .feat {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-}
-.hero2-comp-feat .feat .dot-text {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+  left: -140px;
+  top: 120px;
 }
