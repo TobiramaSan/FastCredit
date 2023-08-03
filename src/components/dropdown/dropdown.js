@@ -47,7 +47,7 @@ const Dropdown = () => {
             <p>All purpose cash loans</p>
           </div>
         </NavLink>
-        <NavLink className="navlink">
+        <NavLink className="navlink" to="/calculator">
           <img src={calculator} alt="" />
           <div>
             <span>Loan Calculator</span>

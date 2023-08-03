@@ -1,0 +1,161 @@
+.calculator {
+  border: 3px solid #fff;
+  background: rgba(243, 245, 245, 0.94);
+  backdrop-filter: blur(4px);
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.calc-main {
+  margin-top: 86px;
+  margin-bottom: 205px;
+  border-radius: 24px;
+  background: var(--white, #fff);
+  box-shadow: 0px 18px 88px -4px rgba(24, 39, 75, 0.14),
+    0px 8px 28px -6px rgba(24, 39, 75, 0.12);
+  display: inline-flex;
+  padding: 56px 104px;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  width: 31%;
+  position: relative;
+}
+.cancel {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+}
+
+.calc-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.calc-content .input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.calc-content .input .amount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.calc-content .input .amount .naira-input {
+  display: flex;
+  width: 327px;
+  height: 50px;
+  padding: 0px 296px 0px 16px;
+  align-items: center;
+  background: var(--neutral-neutral-25, #f6f6f6);
+}
+
+.calc-content .input .amount .arrow-input {
+  display: flex;
+  padding-left: 0px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  gap: 183px;
+  background: var(--neutral-neutral-25, #f6f6f6);
+}
+.calc-content .input .double {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.calc-content .input .double .double-input {
+  display: flex;
+  width: 327px;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--success-success-50, #f2fcf5);
+}
+
+.calc-content .input .double .double-input div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.calc-content .input .industry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  /* width: 100%; */
+}
+
+.calc-content .input .industry .arrow-input {
+  display: flex;
+  padding-left: 0px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 183px;
+  background: var(--neutral-neutral-25, #f6f6f6);
+  height: 50px;
+}
+
+.calculator .calc-main h1 {
+  color: var(--primary-primary-500-main, #029247);
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.calculator .calc-main .calc-content .input span {
+  color: var(--neutral-neutral-600, #1c1d21);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.calculator .calc-main .calc-content .input p {
+  color: var(--neutral-neutral-100, #bababb);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  padding-left: 16px;
+}
+.calculator .calc-main .calc-content .input .double .double-input p {
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.calculator .calc-main .calc-content .input .arrow-input img {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-neutral-50, #e9e9e9);
+}
+.calculator .calc-main .calc-content button {
+  color: var(--white, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 16.8px */
+  border-radius: 100px;
+  background: var(--neutral-neutral-100, #bababb);
+  display: flex;
+  width: 327px;
+  padding: 16px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

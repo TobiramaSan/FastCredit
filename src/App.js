@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Investments from "./pages/Investment/Investment";
 import Loans from "./pages/Loan/Loans";
+import Calculator from "./components/loans-pages/calculator";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="/calculator" element={<Calculator />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Investment" element={<Investments />} />
         <Route

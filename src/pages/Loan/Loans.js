@@ -6,6 +6,7 @@ import Invoice from "../../components/loans-pages/invoice";
 import Sme from "../../components/loans-pages/sme";
 import Sector from "../../components/loans-pages/sector";
 import Bnpl from "../../components/loans-pages/bnpl";
+import Calculator from "../../components/loans-pages/calculator";
 
 const Loans = ({ pages }) => {
   return (
