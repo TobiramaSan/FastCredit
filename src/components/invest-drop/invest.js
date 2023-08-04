@@ -9,21 +9,21 @@ const InvestDrop = () => {
   return (
     <div className="invest-drop">
       <div className="drop-cont">
-        <NavLink className="navlink">
+        <NavLink className="navlink" to='/Investment/target-savings'>
           <img src={target} alt="" />
           <div>
             <span>Target Savings</span>
             <p>Save daily, weekly or monthly to achieve target goals</p>
           </div>
         </NavLink>
-        <NavLink className="navlink">
+        <NavLink className="navlink" to ='/Investment/kiddies-swag'>
           <img src={kids} alt="" />
           <div>
             <span>Kiddies Swag</span>
             <p>Invest in your child for brighter future</p>
           </div>
         </NavLink>
-        <NavLink className="navlink">
+        <NavLink className="navlink" to='/Investment/investment-notes'>
           <img src={FCL} alt="" />
           <div>
             <span>FCL Investment Note</span>

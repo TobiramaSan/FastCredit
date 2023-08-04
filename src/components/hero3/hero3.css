@@ -1,0 +1,101 @@
+.hero3-compo {
+  padding-top: 140px;
+  gap: 140px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("../../assets/map.png");
+  align-items: center;
+  width: 91.7%;
+}
+.hero3-compo .comp-contain {
+  background: var(--white, #fff);
+  width: 93%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 26px;
+}
+.hero3-compo .comp-contain .texts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  width: 39.9%;
+}
+.hero3-compo .comp-contain .texts .text-contain1 p {
+  color: var(--neutral-neutral-600, #1c1d21);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero3-compo .comp-contain .texts .text-contain2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+.hero3-compo .comp-contain .texts .text-contain2 span {
+  padding: 8px 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--success-success-50, #f2fcf5);
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero3-compo .comp-contain .texts .text-contain2 .list-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.hero3-compo .comp-contain .texts .text-contain2 .list-text li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.hero3-compo .comp-contain .texts .text-contain2 .list-text li p {
+  color: var(--neutral-neutral-300, #696a6c);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero3-compo .img {
+  right: -450px;
+}
+.hero3-compo .img,
+.hero3-compo .Iphone {
+  position: relative;
+}
+.hero3-compo .img .Iphone {
+  z-index: 2;
+}
+
+.hero3-compo .circle1,
+.hero3-compo .circle2,
+.hero3-compo .tag {
+  position: absolute;
+  z-index: 1;
+}
+.hero3-compo .comp-contain .img .circle1 {
+  z-index: 1;
+  flex-shrink: 0;
+  left: -60px;
+  top: 0px;
+}
+.hero3-compo .comp-contain .img .circle2 {
+  z-index: 1;
+  flex-shrink: 0;
+  left: -340px;
+  top: -150px;
+}

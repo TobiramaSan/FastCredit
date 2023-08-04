@@ -1,37 +1,40 @@
 import React from "react";
 import Dot from "../../assets/Ellipse 316.png";
 import oval from "../../assets/oval.png";
-import "./pages.css";
-const Invoice = () => {
+import "./invest.css";
+const Kiddies = () => {
   return (
-    <div className="invoice">
-      <div className="hero2-comp-feat">
-        <h1 className="green">Invoice Discounting</h1>
+    <div className="kiddies">
+      <div className="hero3-comp-feat">
+        <h1 className="green">Kiddies Swag</h1>
         <p className="main">
-          Get quick funds to boost your business with FCL Invoice Discounting
-          product.
+          Customers are able to invest up to 100m in fixed deposit for their
+          kids with the features below:
         </p>
 
         <h1 className="black">Features</h1>
         <div className="feat">
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Get up to 70% value of your confirmed invoice.</p>
+            <p>Start investing with minimum of N100,000</p>
           </div>
           <img src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Access up to 50 million Naira under this scheme </p>
+            <p>Minimum tenure of 90 days </p>
           </div>
           <img src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Low interest rate</p>
+            <p>No hidden charges on liquidation</p>
           </div>
           <img src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Maximum tenure of 120 days</p>
+            <p>
+              Monthly, quarterly, bi-annually or upfront interest payment into
+              your account ID
+            </p>
           </div>
         </div>
       </div>
@@ -39,4 +42,4 @@ const Invoice = () => {
   );
 };
 
-export default Invoice;
+export default Kiddies;

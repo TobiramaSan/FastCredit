@@ -15,7 +15,9 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Investment" element={<Investments />} />
+        <Route path="/Investment/target-savings" element={<Investments pages = 'target'/>} />
+        <Route path="/Investment/kiddies-swag" element={<Investments pages = 'kiddies'/>} />
+        <Route path="/Investment/investment-notes" element={<Investments pages = 'investmentnotes'/>} />
         <Route
           path="/Loan/group-lending-scheme"
           element={<Loans pages="group" />}
