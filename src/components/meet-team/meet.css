@@ -1,0 +1,88 @@
+.meet {
+  width: 100%;
+}
+.meet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin: 0px auto;
+  width: 86.2%;
+}
+
+.meet-container .meet-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.meet-container .team-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.meet-container .team-flex .inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+.meet-container .team-flex .inner .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.meet-container .team-flex .inner .details .name-pos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.meet-container .meet-text span {
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 16px 48px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--success-success-50, #f2fcf5);
+}
+.meet-container .meet-text h3 {
+  color: var(--neutral-neutral-400, #4c4d50);
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 181.818% */
+}
+
+.meet-container .team-flex .inner .details .name-pos h1 {
+  color: var(--neutral-neutral-600, #1c1d21);
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.meet-container .team-flex .inner .details .name-pos span {
+  color: var(--primary-primary-500-main, #029247);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.inner-200 {
+  padding-bottom: 200px;
+}

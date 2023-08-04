@@ -1,0 +1,6 @@
+.background {
+  width: 100%;
+  height: 600px;
+  background: url("../../assets/people.png"),
+    lightgray 0px -164px / 100% 192% no-repeat;
+}
