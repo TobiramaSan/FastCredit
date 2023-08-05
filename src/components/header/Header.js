@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   const toggleDropdown = () => {
-    setDropDown(!dropDown);
+    setDropDown(prev => !prev);
     setInvest(false);
   };
 
@@ -52,8 +52,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      {dropDown && <Dropdown />}
-      {invest && <InvestDrop />}
+      {dropDown && <Dropdown action={() => {setDropDown(false)}}/>}
+      {invest && <InvestDrop prop={()=>{setInvest(false)}}/>}
     </>
   );
 };

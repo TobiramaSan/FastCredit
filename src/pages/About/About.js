@@ -11,7 +11,6 @@ const About = () => {
   return (
     <div className="about">
       <Header />
-
       <Describe />
       <Background />
       <Aboutfast />

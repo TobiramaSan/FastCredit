@@ -138,11 +138,11 @@
   font-weight: 600;
   line-height: 34.338px; /* 150% */
 }
-.prec-test-cont.background {
+.prec-test-cont.background-grn {
   background: linear-gradient(180deg, #02351a 0%, #000 100%);
   box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
 }
-.prec-test-cont.background .main-text p.background,
-.prec-test-cont.background .name-title span.background {
+.prec-test-cont.background-grn .main-text p.background-grn,
+.prec-test-cont.background-grn .name-title span.background-grn {
   color: #fff;
 }

@@ -9,7 +9,6 @@ import Vision from "../../components/vision/Vision";
 import Testimonial from "../../components/testimonials/Testimonial";
 import "./home.css";
 import Footer from "../../components/footer/Footer";
-import Hero2 from '../../components/hero2/hero2';
 
 const Home = () => {
   return (
@@ -25,7 +24,6 @@ const Home = () => {
         <Features />
         <Testimonial />
         <Footer />
-        <Hero2 />
       </div>
     </div>
   );
