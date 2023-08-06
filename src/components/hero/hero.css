@@ -1,7 +1,7 @@
 .hero {
   width: 97%;
-  padding-top: 140px;
-  margin: 0px auto;
+  padding-top: 8.75rem;
+  margin: 0rem auto;
   display: flex;
   justify-content: flex-end;
   background-image: url("../../assets/map.png");
@@ -17,7 +17,7 @@
 .hero-text-cont {
   display: flex;
   justify-content: space-between;
-  gap: 56px;
+  gap: 3.5rem;
   flex-direction: column;
 }
 
@@ -25,21 +25,21 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .hero-text h1 {
   color: #029247;
-  font-size: 72px;
+  font-size: 4.5rem;
   font-style: normal;
   font-weight: 800;
-  line-height: 72px;
-  letter-spacing: 3.24px;
+  line-height: 4.5rem;
+  letter-spacing: 0.2025rem;
 }
 
 .hero-text p {
   color: #7e7e7e;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -53,18 +53,18 @@
 }
 
 .hero-license {
-  gap: 64px;
+  gap: 4rem;
 }
 
 .license,
 .ndic {
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .license p,
 .ndic p {
   color: #7c7575;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -72,21 +72,21 @@
 
 .buttons {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .buttons .button {
-  padding: 16px 40px;
+  padding: 1rem 2.5rem;
   display: flex;
   align-items: center;
-  gap: 24px;
-  border-radius: 100px;
+  gap: 1.5rem;
+  border-radius: 6.25rem;
   background: var(--neutral-neutral-900, #0d0d0f);
 }
 
 .button p {
   color: #fff;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -94,7 +94,7 @@
 
 .button span {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -111,26 +111,26 @@
 
 .hero-img-cont .coins {
   position: absolute;
-  left: -180px;
-  top: 180px;
+  left: -11.25rem;
+  top: 11.25rem;
 }
 
 .hero-img-cont .component-one {
   position: absolute;
-  top: 270px;
-  left: -280px;
+  top: 16.875rem;
+  left: -17.5rem;
   z-index: 2;
 }
 
 .hero-img-cont .component-two {
   position: absolute;
-  top: 430px;
-  left: -330px;
+  top: 26.875rem;
+  left: -20.625rem;
 }
 
 .hero-img-cont .component-three {
   position: absolute;
-  top: 530px;
-  left: -270px;
+  top: 33.125rem;
+  left: -16.875rem;
   z-index: 2;
 }
