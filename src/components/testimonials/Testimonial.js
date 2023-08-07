@@ -56,10 +56,10 @@ const Testimonial = () => {
             </div>
 
             <div className="prec-test">
-              <div className="prec-test-cont background">
+              <div className="prec-test-cont background-grn">
                 <img src={rate} alt="" />
                 <div className="main-text">
-                  <p className="background">
+                  <p className="background-grn">
                     This is the best banking app! I’m enjoying seamless banking
                     plus the free transfers to other banks is a thing of joy.
                     This is what I call freedom. I’ve made Fast Credit my main
@@ -68,8 +68,8 @@ const Testimonial = () => {
                   <div className="text-img">
                     <img src={business} alt="" />
                     <div className="name-title">
-                      <span className="background">Mofi Coker</span>
-                      <p className="background">Product Manager CEO</p>
+                      <span className="background-grn">Mofi Coker</span>
+                      <p className="background-grn">Product Manager CEO</p>
                     </div>
                   </div>
                 </div>

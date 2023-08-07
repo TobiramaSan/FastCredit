@@ -1,0 +1,30 @@
+.contact-us {
+  width: 100%;
+}
+.main-contact-text {
+  width: 86.2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin: 6.25rem auto;
+}
+.main-contact-text h1 {
+  width: 42.1%;
+  color: #029247;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.5rem; /* 100% */
+  letter-spacing: 0.2025rem;
+}
+.main-contact-text p {
+  color: var(--neutral-neutral-400, #4c4d50);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%; /* 3.9375rem */
+  letter-spacing: 0.1013rem;
+  width: 90.2%;
+}

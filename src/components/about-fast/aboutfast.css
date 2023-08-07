@@ -1,0 +1,45 @@
+.about-fast {
+  width: 100%;
+}
+
+.about-fast-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  width: 86.2%;
+  margin: 12.5rem auto;
+}
+.about-fast-container h1 {
+  display: flex;
+  padding: 1rem 3rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 6.25rem;
+  background: var(--success-success-50, #f2fcf5);
+}
+.about-fast-container p {
+  color: var(--neutral-neutral-400, #4c4d50);
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.04rem;
+}
+.about-fast-container p span {
+  color: var(--primary-primary-500-main, #029247);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%; /* 3.5rem */
+  letter-spacing: 0.04rem;
+}

@@ -1,28 +1,28 @@
 .partners {
   width: 100%;
-  margin: 0px auto;
+  margin: 0rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 156px;
+  padding-top: 9.75rem;
 }
 .partners-cont {
   width: 94.4%;
   display: flex;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
   flex-direction: column;
-  gap: 80px;
+  gap: 5rem;
   align-items: center;
 }
 .part-text span {
   display: inline-flex;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   background: var(--success-success-50, #f2fcf5);
-  padding: 16px 48px;
+  padding: 1rem 3rem;
   color: var(--primary-primary-500-main, #029247);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -33,18 +33,18 @@
   gap: 71.03;
 }
 .brand-logo .img-1 {
-  width: 354.3px;
-  height: 118.382px;
+  width: 22.1438rem;
+  height: 7.3989rem;
 }
 .brand-logo .img-2 {
-  width: 355.991px;
-  height: 120.073px;
+  width: 22.2494rem;
+  height: 7.5046rem;
 }
 .brand-logo .img-3 {
-  width: 354.3px;
-  height: 118.382px;
+  width: 22.1438rem;
+  height: 7.3989rem;
 }
 .brand-logo .img-4 {
-  width: 354.3px;
-  height: 118.382px;
+  width: 22.1438rem;
+  height: 7.3989rem;
 }

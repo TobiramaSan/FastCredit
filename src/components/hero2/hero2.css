@@ -1,0 +1,108 @@
+.hero2-compo {
+  padding-top: 8.75rem;
+  gap: 8.75rem;
+  margin: 0rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("../../assets/map.png");
+  align-items: center;
+  width: 91.7%;
+}
+.hero2-compo .comp-contain {
+  background: var(--white, #fff);
+  width: 93%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.625rem;
+}
+.hero2-compo .comp-contain .texts {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2.5rem;
+  width: 39.9%;
+}
+.hero2-compo .comp-contain .texts .text-contain1 p {
+  color: var(--neutral-neutral-600, #1c1d21);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero2-compo .comp-contain .texts .text-contain2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.hero2-compo .comp-contain .texts .text-contain2 span {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 6.25rem;
+  background: var(--success-success-50, #f2fcf5);
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero2-compo .comp-contain .texts .text-contain2 .list-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.hero2-compo .comp-contain .texts .text-contain2 .list-text li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.hero2-compo .comp-contain .texts .text-contain2 .list-text li p {
+  color: var(--neutral-neutral-300, #696a6c);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.hero2-compo .img {
+  right: -28.125rem;
+}
+.hero2-compo .img,
+.hero2-compo .Iphone {
+  position: relative;
+}
+.hero2-compo .img .Iphone {
+  z-index: 2;
+}
+
+.hero2-compo .circle1,
+.hero2-compo .circle2,
+.hero2-compo .tag {
+  position: absolute;
+  z-index: 1;
+}
+.hero2-compo .comp-contain .img .circle1 {
+  z-index: 1;
+  flex-shrink: 0;
+  left: -9.375rem;
+  top: 0rem;
+}
+.hero2-compo .comp-contain .img .circle2 {
+  z-index: 1;
+  flex-shrink: 0;
+  left: -26.875rem;
+  top: -9.375rem;
+}
+
+.hero2-compo .comp-contain .img .tag {
+  z-index: 3;
+  flex-shrink: 0;
+  left: -8.75rem;
+  top: 7.5rem;
+}

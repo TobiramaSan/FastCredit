@@ -1,0 +1,69 @@
+.hero3-comp-feat {
+  padding-top: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+.hero3-comp-feat .feat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 12.5rem;
+}
+.hero3-comp-feat .feat .dot-text {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.hero3-comp-feat h1.green {
+  display: flex;
+  padding: 1rem 3rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 6.25rem;
+  background: var(--success-success-50, #f2fcf5);
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.hero3-comp-feat p.main {
+  color: var(--neutral-neutral-400, #4c4d50);
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%; /* 3.5rem */
+  letter-spacing: 0.04rem;
+}
+.paragraph {
+  padding-bottom: 12.5rem;
+}
+.hero3-comp-feat p.main span.span {
+  color: var(--primary-primary-500-main, #029247);
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%; /* 3.5rem */
+  letter-spacing: 0.04rem;
+}
+
+.hero3-comp-feat h1.black {
+  color: var(--neutral-neutral-500, #1f2024);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero3-comp-feat .feat .dot-text p {
+  color: var(--primary-primary-500-main, #029247);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6125rem; /* 80.625% */
+}
