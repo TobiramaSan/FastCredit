@@ -5,6 +5,8 @@ import "./header.css";
 import InvestDrop from "../../components/invest-drop/invest";
 import Dropdown from "../dropdown/dropdown";
 import { useState } from "react";
+import menu from "../../assets/menu.png";
+import cancel from "../../assets/add.png";
 
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
@@ -16,7 +18,7 @@ const Header = () => {
   };
 
   const toggleDropdown = () => {
-    setDropDown(prev => !prev);
+    setDropDown((prev) => !prev);
     setInvest(false);
   };
 
@@ -49,11 +51,29 @@ const Header = () => {
             <div className="getapp">
               <NavLink to="/getapp">Get Fast Credit App</NavLink>
             </div>
+            {/* <button>
+              <img src={} alt="" />
+            </button> */}
           </div>
+          {/* <button>
+            <img src="" alt="" />
+          </button> */}
         </div>
       </nav>
-      {dropDown && <Dropdown action={() => {setDropDown(false)}}/>}
-      {invest && <InvestDrop prop={()=>{setInvest(false)}}/>}
+      {dropDown && (
+        <Dropdown
+          action={() => {
+            setDropDown(false);
+          }}
+        />
+      )}
+      {invest && (
+        <InvestDrop
+          prop={() => {
+            setInvest(false);
+          }}
+        />
+      )}
     </>
   );
 };

@@ -63,7 +63,7 @@
 .feature-links ul li.buy {
   padding: 1rem 1.5rem;
 }
-.feature-links ul li.loans:hover {
+.feature-links ul li:hover {
   border-bottom: 0.5rem solid var(--primary-primary-500-main, #029247);
 }
 
@@ -152,3 +152,18 @@
   font-weight: 500;
   line-height: normal;
 }
+
+/* mobile responsiveness */
+/* @media only screen and (max-width: 500px) {
+  .feature {
+    margin: 0rem auto;
+    background: var(--success-success-50, #f2fcf5);
+  }
+
+  .feature-wrapper {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+} */
