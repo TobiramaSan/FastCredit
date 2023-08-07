@@ -100,9 +100,10 @@
     align-items: unset;
   }
 
-  .header-active .links ul li {
+  .header-active .links ul li a,
+  .header-active .links ul li p {
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
