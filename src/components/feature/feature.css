@@ -20,7 +20,6 @@
 }
 .feature-text span {
   color: var(--white, #fff);
-  font-family: Poppins;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
@@ -32,7 +31,6 @@
 .feature-text p {
   color: var(--neutral-neutral-500, #1f2024);
   text-align: center;
-  font-family: Poppins;
   font-size: 3rem;
   font-style: normal;
   font-weight: 600;
@@ -88,7 +86,6 @@
 }
 .comp-cont .img {
   width: 34rem;
-  height: 73.5607rem;
 }
 .comp-cont .texts {
   display: flex;
@@ -154,16 +151,126 @@
 }
 
 /* mobile responsiveness */
-/* @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .feature {
-    margin: 0rem auto;
-    background: var(--success-success-50, #f2fcf5);
+    width: 100%;
+    margin-top: 80px;
+    padding-top: 0px;
   }
 
-  .feature-wrapper {
-    width: 99%;
+  .feature .feature-wrapper {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    align-items: center;
   }
-} */
+  .feature .feature-wrapper .feature-text {
+    padding-top: 40px;
+    width: 65%;
+    /* align-items: center; */
+  }
+  .feature .feature-wrapper .feature-text span {
+    font-size: 20px;
+  }
+  .feature .feature-wrapper .feature-text p {
+    width: 100%;
+    font-size: 24px;
+  }
+  .feature .feature-wrapper .feature-links {
+    display: flex;
+    width: 85%;
+  }
+  .feature .feature-wrapper .feature-links ul {
+    width: 100%;
+    align-items: center;
+  }
+  .feature .feature-wrapper .feature-links ul li {
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+  }
+  .feature-links ul li:hover {
+    border-bottom: 3px solid var(--primary-primary-500-main, #029247);
+  }
+  .feature .feature-wrapper .components {
+    width: 89%;
+  }
+  .feature .feature-wrapper .components .comp-cont {
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 82px;
+    align-items: center;
+  }
+  .feature .feature-wrapper .components .comp-cont .texts {
+    width: 92%;
+    gap: 16px;
+  }
+  .feature .feature-wrapper .components .comp-cont .texts .text-cont1 {
+    width: 100%;
+    text-align: center;
+  }
+  .feature .feature-wrapper .components .comp-cont .texts .text-cont1 p {
+    width: 100%;
+    font-size: 24px;
+  }
+  .feature .feature-wrapper .components .comp-cont .texts .text-cont2 {
+    gap: 16px;
+    align-items: center;
+  }
+  .feature .feature-wrapper .components .comp-cont .texts .text-cont2 span {
+    font-size: 16px;
+    text-align: center;
+  }
+  .feature
+    .feature-wrapper
+    .components
+    .comp-cont
+    .texts
+    .text-cont2
+    .list-text {
+    width: 84%;
+  }
+  .feature
+    .feature-wrapper
+    .components
+    .comp-cont
+    .texts
+    .text-cont2
+    .list-text
+    ul {
+    gap: 16px;
+    align-items: center;
+  }
+  .feature
+    .feature-wrapper
+    .components
+    .comp-cont
+    .texts
+    .text-cont2
+    .list-text
+    ul
+    li
+    p {
+    font-size: 16px;
+  }
+  .feature
+    .feature-wrapper
+    .components
+    .comp-cont
+    .texts
+    .text-cont2
+    .list-text
+    ul
+    li
+    .dot {
+    width: 12px;
+    height: 12px;
+  }
+  .feature .feature-wrapper .components .comp-cont .img {
+    width: 65.4%;
+    align-items: center;
+  }
+  .feature .feature-wrapper .components .comp-cont .img img {
+    width: 100%;
+  }
+}

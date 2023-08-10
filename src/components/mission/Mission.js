@@ -1,3 +1,4 @@
+import React from "react";
 import Group from "../../assets/Group 33782.png";
 import "./mission.css";
 const Mission = () => {

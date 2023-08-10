@@ -71,7 +71,7 @@ const Features = () => {
                 setFeature("Buy");
               }}
             >
-              <p className="buy-text">Buy Now Pay Later</p>
+              <p className="buy-text">BNPL</p>
             </li>
           </ul>
         </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import Features from "../../components/feature/Feature";
 import Header from "../../components/header/Header";
@@ -7,6 +7,7 @@ import Mission from "../../components/mission/Mission";
 import Services from "../../components/service/Services";
 import Vision from "../../components/vision/Vision";
 import Testimonial from "../../components/testimonials/Testimonial";
+import Partners from "../../components/partners/partners";
 import "./home.css";
 import Footer from "../../components/footer/Footer";
 
@@ -22,6 +23,7 @@ const Home = () => {
         <Vision />
         <Mission />
         <Features />
+        <Partners />
         <Testimonial />
         <Footer />
       </div>

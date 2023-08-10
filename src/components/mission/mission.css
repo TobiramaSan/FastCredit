@@ -1,22 +1,19 @@
 .mission {
   width: 87%;
-  display: flex;
-  margin: 0rem auto;
-  padding-top: 9.7688rem;
-  justify-items: flex-end;
-  align-items: center;
+  margin: 0px auto;
 }
 .mission-container {
-  width: 99%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 4.1875rem;
+  justify-content: space-between;
+  padding: 156px 0px;
 }
 .mission-text {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
-  align-items: flex-start;
+  gap: 40px;
+  width: 48%;
 }
 .mission-text span {
   color: var(--primary-primary-500-main, #029247);
@@ -27,21 +24,60 @@
   border-radius: 6.25rem;
   background: var(--success-success-50, #f2fcf5);
   padding: 1rem 3rem;
+  width: fit-content;
 }
 .mission-text .p-cont {
-  width: 44.4375rem;
+  width: 100%;
 }
 .mission-text .p-cont p {
   color: var(--neutral-neutral-400, #4c4d50);
-
+  width: fit-content;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: 5rem;
 }
-mission-img img {
-  width: 39.5rem;
-  height: 40.254rem;
-  flex-shrink: 0;
+.mission-img {
+  width: 43%;
+}
+.mission-img img {
+  width: 100%;
   /* fill: url('../../assets/'), lightgray 50% / cover no-repeat, #D9D9D9; */
+}
+
+/* mobile responsiveness */
+@media screen and (max-width: 500px) {
+  .mission .mission-container {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 48px;
+    padding: 80px 0 0 0;
+  }
+  .mission .mission-container .mission-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission .mission-container .mission-text span {
+    font-size: 20px;
+  }
+  .mission .mission-container .mission-text .p-cont {
+    width: 100%;
+  }
+  .mission .mission-container .mission-text .p-cont p {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+  }
+  .mission .mission-container .mission-img {
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+  .mission .mission-container .mission-img img {
+    width: 100%;
+  }
 }

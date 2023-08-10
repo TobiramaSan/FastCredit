@@ -48,3 +48,33 @@
   width: 22.1438rem;
   height: 7.3989rem;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 500px) {
+  .partners {
+    width: 100%;
+  }
+  .partners-cont {
+    width: 78%;
+    gap: 32px;
+  }
+  .partners-cont .part-text {
+    align-items: center;
+  }
+  .partners-cont .part-text span {
+    font-size: 20px;
+  }
+  .partners-cont .brand-logo {
+    gap: 24px;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+  }
+  .brand-logo .img-1,
+  .brand-logo .img-2,
+  .brand-logo .img-3,
+  .brand-logo .img-5 {
+    width: 50%;
+    height: 58px;
+  }
+}

@@ -29,7 +29,11 @@ const Header = () => {
       <nav className="header">
         <div className={mobile ? "header-active" : "header-container"}>
           <div className="logo">
-            {mobile ? <img src={WhiteLogo} alt="logo" /> : <img src={logo} alt="logo" />}
+            {mobile ? (
+              <img src={WhiteLogo} alt="logo" />
+            ) : (
+              <img src={logo} alt="logo" />
+            )}
             {mobile ? (
               <img
                 src={Cancel}
