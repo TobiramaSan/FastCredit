@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./calculator.css";
 import naira from "../../assets/naira.png";
 import arrow from "../../assets/arrow-down.png";
@@ -8,7 +9,9 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="calc-main">
-        <img className="cancel" src={cancel} alt="" />
+        <Link to="/">
+          <img className="cancel" src={cancel} alt="" />
+        </Link>
         <h1>Loan Calculator</h1>
         <div className="calc-content">
           <div className="input">

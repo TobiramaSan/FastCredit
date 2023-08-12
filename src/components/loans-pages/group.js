@@ -6,32 +6,49 @@ const Group = () => {
   return (
     <div className="group">
       <div className="hero2-comp-feat">
-        <h1 className="green">Invoice Discounting</h1>
+        <h1 className="green">Group Lending Scheme</h1>
         <p className="main">
-          Get quick funds to boost your business with FCL Invoice Discounting
-          product.
+          Our group lending scheme is designed as a welfare package for
+          employees. Access up to 100 million Naira collectively in this loan
+          package. With this scheme, employees have more liquidity to meet
+          personal needs and satisfied employees can meet their financial
+          obligations with increased focus on their jobs.
         </p>
 
         <h1 className="black">Features</h1>
         <div className="feat">
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Get up to 70% value of your confirmed invoice.</p>
+            <p>A welfare package for employees</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Access up to 50 million Naira under this scheme </p>
+            <p>Salary advance or personal loans </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Low interesr rate</p>
+            <p>
+              Access up to 100 million Naira under this group lending scheme
+            </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
-            <p>Maximum tenure of 120 days</p>
+            <p>
+              Access up to 100 million Naira under this group lending scheme
+            </p>
+          </div>
+          <img className="oval" src={oval} alt="" />
+          <div className="dot-text">
+            <img src={Dot} alt="" />
+            <p>Flexible repayment plan</p>
+          </div>
+          <img className="oval" src={oval} alt="" />
+          <div className="dot-text">
+            <img src={Dot} alt="" />
+            <p>12 - 15 months tenure</p>
           </div>
         </div>
       </div>

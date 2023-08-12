@@ -20,7 +20,7 @@ const Sme = () => {
             <img src={Dot} alt="" />
             <p>12 months business accounts bank statement </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>
@@ -28,12 +28,12 @@ const Sme = () => {
               License or Intl Passport Data Page)
             </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Recent Passport Photograph of business owner(s)</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>
@@ -41,17 +41,17 @@ const Sme = () => {
               Name
             </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Utility Bill not older than 3 months</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Evidence of Tax Payment</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>
@@ -59,7 +59,7 @@ const Sme = () => {
               Manager Level and above)
             </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Business owner(s) personal cheques</p>

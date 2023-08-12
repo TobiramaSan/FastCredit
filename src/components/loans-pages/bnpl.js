@@ -26,12 +26,12 @@ const Bnpl = () => {
             <img src={Dot} alt="" />
             <p>Download our app from play store or Appstore.</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Register account and create profile.</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>
@@ -39,7 +39,7 @@ const Bnpl = () => {
               documentation.
             </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>

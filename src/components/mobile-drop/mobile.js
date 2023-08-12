@@ -6,10 +6,10 @@ import calculator from "../../assets/loancalculator.png";
 import sector from "../../assets/publicsector loan.png";
 import sme from "../../assets/smeloan.png";
 import { NavLink } from "react-router-dom";
-import "./dropdown.css";
+import "./mobile.css";
 
-const Dropdown = ({ action }) => {
-  const testArray = [
+const Mobile = ({ action }) => {
+  const testArray2 = [
     {
       link: "/Loan/group-lending-scheme",
       img: group,
@@ -48,9 +48,9 @@ const Dropdown = ({ action }) => {
     },
   ];
   return (
-    <div className="dropdown-menu">
-      <div className="drop-cont">
-        {testArray.map((item, index) => {
+    <div className="mobile-menu">
+      <div className="mobile-cont">
+        {testArray2.map((item, index) => {
           return (
             <NavLink
               key={index}
@@ -70,4 +70,4 @@ const Dropdown = ({ action }) => {
     </div>
   );
 };
-export default Dropdown;
+export default Mobile;

@@ -106,3 +106,118 @@
   left: -8.75rem;
   top: 7.5rem;
 }
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 500px) {
+  .hero2-compo {
+    padding-top: 40px;
+    background-image: none;
+    width: 100%;
+    flex-shrink: 0;
+  }
+  .hero2-compo .comp-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    width: 81.3%;
+  }
+  .hero2-compo .comp-contain .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+  }
+  .hero2-compo .comp-contain .texts .text-contain1 p {
+    color: var(--neutral-neutral-600, #1c1d21);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .hero2-compo .comp-contain .texts .text-contain2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .hero2-compo .comp-contain .texts .text-contain2 span {
+    color: var(--primary-primary-500-main, #029247);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .hero2-compo .comp-contain .texts .text-contain2 .list-text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .hero2-compo .comp-contain .texts .text-contain2 .list-text li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .hero2-compo .comp-contain .texts .text-contain2 .list-text li p {
+    color: var(--neutral-neutral-300, #696a6c);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .hero2-compo .comp-contain .texts .text-contain2 .list-text li .dot {
+    width: 12px;
+    height: 12px;
+  }
+  .hero2-compo .img {
+    width: 100%;
+    right: -100px;
+    /* top: 1000px; */
+    /* align-items: center; */
+  }
+  .hero2-compo .img,
+  .hero2-compo .Iphone {
+    position: relative;
+  }
+  .hero2-compo .img .Iphone {
+    z-index: 2;
+    width: 39%;
+  }
+
+  .hero2-compo .circle1,
+  .hero2-compo .circle2,
+  .hero2-compo .tag {
+    position: absolute;
+    z-index: 1;
+  }
+  .hero2-compo .comp-contain .img .circle1 {
+    z-index: 1;
+    flex-shrink: 0;
+    left: -100px;
+    top: 0px;
+    width: 85%;
+  }
+  .hero2-compo .comp-contain .img .circle2 {
+    z-index: 1;
+    flex-shrink: 0;
+    left: -120px;
+    top: 20px;
+    width: 85%;
+  }
+
+  .hero2-compo .comp-contain .img .tag {
+    z-index: 3;
+    flex-shrink: 0;
+    left: -70px;
+    top: 70px;
+    width: 70.37%;
+  }
+}

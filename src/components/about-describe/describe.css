@@ -28,3 +28,37 @@
   letter-spacing: 0.1013rem;
   width: 90.2%;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 500px) {
+  .describe {
+    width: 100%;
+  }
+  .main-about-text {
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 40px auto;
+  }
+  .main-about-text h1 {
+    color: #029247;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    width: 90%;
+  }
+  .main-about-text p {
+    color: var(--neutral-neutral-400, #4c4d50);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px;
+  }
+}

@@ -20,17 +20,17 @@ const Sector = () => {
             <img src={Dot} alt="" />
             <p>Recent 3 months’ salary account statement</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Recent passport photograph in uniform (where it applies) </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Valid means of ID</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Work ID </p>
@@ -51,17 +51,17 @@ const Sector = () => {
             <img src={Dot} alt="" />
             <p>Our rates are very attractive.</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>No collateral required</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Get credited in less than 24 hours</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Flexible (convenient) repayment structure and terms</p>

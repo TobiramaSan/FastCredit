@@ -28,3 +28,39 @@
   letter-spacing: 0.1013rem;
   width: 90.2%;
 }
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 500px) {
+  .contact-us {
+    width: 100%;
+  }
+  .main-contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .main-contact-text h1 {
+    color: #029247;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    width: 100%;
+  }
+  .main-contact-text p {
+    color: var(--neutral-neutral-400, #4c4d50);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    width: 85%;
+  }
+}

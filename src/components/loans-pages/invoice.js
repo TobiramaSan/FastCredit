@@ -18,17 +18,17 @@ const Invoice = () => {
             <img src={Dot} alt="" />
             <p>Get up to 70% value of your confirmed invoice.</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Access up to 50 million Naira under this scheme </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Low interest rate</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Maximum tenure of 120 days</p>

@@ -18,17 +18,17 @@ const Kiddies = () => {
             <img src={Dot} alt="" />
             <p>Start investing with minimum of N100,000</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>Minimum tenure of 90 days </p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>No hidden charges on liquidation</p>
           </div>
-          <img src={oval} alt="" />
+          <img className="oval" src={oval} alt="" />
           <div className="dot-text">
             <img src={Dot} alt="" />
             <p>

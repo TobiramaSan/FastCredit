@@ -75,7 +75,7 @@ const Office = () => {
             <div className="address">
               <h1>Ibadan</h1>
               <p>
-                2nd Floor =, Alice Place, Total Garden, State Secretariat Road,
+                2nd Floor = Alice Place, Total Garden, State Secretariat Road,
                 Ibadan, Oyo State.
               </p>
               <span>+234 - 8090584037</span>
