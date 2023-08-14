@@ -34,8 +34,10 @@ const Header = () => {
             ) : (
               <img src={logo} alt="logo" />
             )}
+
             {mobile ? (
               <img
+                className="menu"
                 src={Cancel}
                 alt="menu"
                 onClick={() => {
@@ -44,6 +46,7 @@ const Header = () => {
               />
             ) : (
               <img
+                className="menu"
                 src={Menu}
                 alt="menu"
                 onClick={() => {
@@ -57,13 +60,31 @@ const Header = () => {
               <li>
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li>
-                {/* Add parentheses to invoke the toggleDropdown function */}
-                <p onClick={toggleDropdown}>Loans</p>
-              </li>
-              <li>
-                <p onClick={toggleInvest}>Investments</p>
-              </li>
+              <div>
+                <li>
+                  <p onClick={toggleDropdown}>Loans</p>
+                </li>
+                {dropDown && (
+                  <Dropdown
+                    action={() => {
+                      setDropDown(false);
+                    }}
+                  />
+                )}
+              </div>
+              <div>
+                <li>
+                  <p onClick={toggleInvest}>Investments</p>
+                </li>
+                {invest && (
+                  <InvestDrop
+                    prop={() => {
+                      setInvest(false);
+                    }}
+                  />
+                )}
+              </div>
+
               <li>
                 <NavLink to="/about">About Us</NavLink>
               </li>
@@ -74,31 +95,10 @@ const Header = () => {
             <div className="getapp">
               <NavLink to="/getapp">Get Fast Credit App</NavLink>
             </div>
-            {/* <button>
-              <img src={} alt="" />
-            </button> */}
           </div>
-          {/* <button>
-            <img src="" alt="" />
-          </button> */}
         </div>
       </nav>
-      {dropDown && (
-        <Dropdown
-          action={() => {
-            setDropDown(false);
-          }}
-        />
-      )}
-      {invest && (
-        <InvestDrop
-          prop={() => {
-            setInvest(false);
-          }}
-        />
-      )}
     </>
   );
 };
-
 export default Header;

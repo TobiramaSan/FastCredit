@@ -53,10 +53,14 @@
 @media screen and (max-width: 500px) {
   .partners {
     width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .partners-cont {
     width: 78%;
     gap: 32px;
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
   .partners-cont .part-text {
     align-items: center;

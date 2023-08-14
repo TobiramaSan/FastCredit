@@ -51,6 +51,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  cursor: pointer;
 }
 .feature-links ul li.loans {
   padding: 1rem 9.375rem;
