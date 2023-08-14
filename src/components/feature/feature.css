@@ -39,7 +39,7 @@
 .feature-links ul {
   display: flex;
   flex-direction: row;
-  gap: 7.125rem;
+  /* gap: 7.125rem; */
   justify-content: space-around;
   list-style: none;
   align-items: flex-start;
@@ -179,7 +179,7 @@
   }
   .feature .feature-wrapper .feature-links {
     display: flex;
-    width: 85%;
+    width: 80%;
   }
   .feature .feature-wrapper .feature-links ul {
     width: 100%;
