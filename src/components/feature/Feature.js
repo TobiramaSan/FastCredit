@@ -7,6 +7,22 @@ import buyIphone from "../../assets/iPhone 12 Buy.png";
 
 const Features = () => {
   const [feature, setFeature] = useState("Loans");
+  const [isMobileView, setIsMobileView] = useState(false);
+  const handleView = () => {
+    if (window.innerWidth <= 500) {
+      setIsMobileView(true);
+    } else {
+      setIsMobileView(false);
+    }
+  };
+  React.useEffect(() => {
+    window.addEventListener("resize", handleView);
+    handleView();
+    return () => {
+      window.removeEventListener("resize", handleView);
+    };
+  }, []);
+
   const linksArray = [
     {
       type: "Loans",
@@ -71,7 +87,9 @@ const Features = () => {
                 setFeature("Buy");
               }}
             >
-              <p className="buy-text">BNPL</p>
+              <p className="buy-text">
+                {isMobileView ? "BNLP" : "Buy Now Pay Later"}
+              </p>
             </li>
           </ul>
         </div>
